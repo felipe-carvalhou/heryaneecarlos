@@ -160,6 +160,9 @@
     .pix{margin-top:20px;display:flex;flex-direction:column;align-items:center;gap:12px}
     .pix code{display:block;max-width:100%;font-family:'Montserrat',sans-serif;font-size:11px;line-height:1.5;text-align:left;border:1px solid var(--line);border-radius:4px;padding:9px 12px;word-break:break-all;background:var(--paper);user-select:all;-webkit-user-select:all}
     .pix small{font-size:12px;line-height:1.6;color:var(--ink-soft)}
+    .pix-qr{display:block;width:204px;padding:6px;background:#fff;border:1px solid var(--line);border-radius:4px}
+    .pix-qr svg{display:block;width:100%;height:auto}
+    .agenda-alt{display:inline-block;margin-top:14px;font-size:12px;color:var(--ink-soft);text-decoration:underline;text-underline-offset:3px}
 
     /* RSVP */
     .rsvp{padding-top:80px;padding-bottom:80px}
@@ -389,8 +392,9 @@
       <h2 class="ttl"><span class="sig grad">Nossa</span><span class="serif">Lua de Mel</span></h2>
       <p class="lead" id="f-presente-txt"></p>
       <div class="pix" id="f-pix-box" hidden>
+        <span class="pix-qr" role="img" aria-label="QR Code do Pix para a lua de mel"><!-- gerado a partir de CONFIG.presentes.pix: se a chave mudar, o QR precisa ser refeito --><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61" class="segno"><path fill="#fff" d="M0 0h61v61h-61z"/><path class="qrline" stroke="#1f2210" d="M4 4.5h7m1 0h2m2 0h2m5 0h3m1 0h1m1 0h2m2 0h2m4 0h1m1 0h1m2 0h1m1 0h1m3 0h7m-53 1h1m5 0h1m1 0h1m1 0h2m1 0h1m2 0h1m3 0h1m1 0h3m2 0h1m1 0h1m2 0h2m2 0h1m1 0h2m1 0h3m2 0h1m5 0h1m-53 1h1m1 0h3m1 0h1m5 0h1m1 0h2m2 0h7m1 0h1m4 0h3m1 0h2m2 0h2m2 0h1m2 0h1m1 0h3m1 0h1m-53 1h1m1 0h3m1 0h1m1 0h2m3 0h3m5 0h1m1 0h2m2 0h2m1 0h1m5 0h1m5 0h1m1 0h1m1 0h1m1 0h3m1 0h1m-53 1h1m1 0h3m1 0h1m2 0h4m1 0h2m5 0h2m1 0h5m4 0h1m1 0h1m1 0h2m3 0h1m3 0h1m1 0h3m1 0h1m-53 1h1m5 0h1m2 0h1m2 0h1m1 0h1m2 0h2m1 0h1m1 0h1m1 0h1m3 0h2m1 0h1m3 0h1m1 0h1m2 0h3m3 0h1m5 0h1m-53 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-45 1h2m1 0h1m2 0h1m1 0h1m1 0h3m3 0h1m3 0h1m3 0h1m3 0h1m1 0h3m3 0h1m-45 1h1m1 0h2m1 0h3m2 0h6m4 0h1m1 0h1m1 0h6m1 0h1m8 0h2m2 0h1m1 0h1m2 0h1m1 0h2m-52 1h1m2 0h1m8 0h3m1 0h3m2 0h2m6 0h1m4 0h1m6 0h1m2 0h1m2 0h1m3 0h1m-53 1h1m1 0h1m1 0h3m1 0h4m1 0h1m4 0h1m1 0h2m1 0h1m2 0h2m2 0h1m1 0h2m2 0h1m2 0h1m2 0h1m1 0h4m2 0h1m-50 1h1m2 0h2m1 0h1m1 0h1m3 0h1m3 0h7m1 0h1m1 0h4m1 0h4m1 0h2m4 0h1m2 0h4m2 0h1m-50 1h4m1 0h1m2 0h2m1 0h3m4 0h1m2 0h5m4 0h5m5 0h9m-51 1h1m5 0h2m3 0h2m2 0h3m1 0h1m1 0h1m3 0h3m1 0h1m1 0h1m5 0h2m1 0h1m2 0h1m5 0h3m-53 1h1m3 0h6m1 0h1m1 0h2m2 0h2m1 0h1m2 0h4m1 0h1m2 0h1m1 0h1m1 0h1m2 0h6m1 0h1m1 0h1m2 0h3m-53 1h2m3 0h1m1 0h1m1 0h2m1 0h1m1 0h1m1 0h2m1 0h1m4 0h1m4 0h1m2 0h1m3 0h1m3 0h1m1 0h1m1 0h3m1 0h1m-48 1h2m1 0h1m1 0h3m1 0h2m1 0h6m1 0h2m1 0h1m1 0h1m1 0h1m1 0h2m1 0h2m4 0h1m2 0h1m1 0h1m5 0h1m1 0h1m-47 1h1m2 0h6m1 0h1m2 0h2m1 0h1m3 0h1m1 0h1m1 0h1m3 0h2m4 0h2m2 0h1m2 0h1m1 0h1m1 0h1m1 0h1m-53 1h1m2 0h1m2 0h1m2 0h2m2 0h1m1 0h1m4 0h2m1 0h1m2 0h2m1 0h3m1 0h1m2 0h1m2 0h1m1 0h1m4 0h2m2 0h1m-51 1h5m3 0h3m1 0h1m1 0h2m1 0h2m2 0h1m1 0h1m1 0h2m2 0h2m2 0h1m1 0h1m1 0h1m1 0h4m1 0h1m3 0h4m-51 1h1m4 0h1m1 0h2m2 0h1m1 0h5m1 0h1m1 0h2m1 0h1m5 0h1m3 0h1m1 0h1m1 0h3m2 0h3m5 0h1m-52 1h5m1 0h4m1 0h2m1 0h2m1 0h3m3 0h1m5 0h2m1 0h1m1 0h1m5 0h2m2 0h1m1 0h3m2 0h1m-51 1h1m3 0h2m1 0h2m1 0h2m2 0h1m1 0h1m1 0h2m3 0h2m2 0h3m2 0h1m2 0h1m1 0h2m4 0h4m1 0h1m-51 1h2m7 0h3m1 0h3m3 0h2m1 0h1m4 0h3m1 0h1m1 0h5m9 0h2m2 0h2m-53 1h1m1 0h1m1 0h5m1 0h3m1 0h1m3 0h2m1 0h1m1 0h6m2 0h1m4 0h1m1 0h2m2 0h8m-49 1h1m2 0h1m3 0h1m1 0h2m1 0h2m4 0h6m3 0h1m2 0h1m1 0h1m1 0h1m1 0h4m2 0h2m3 0h1m1 0h3m-53 1h5m1 0h1m1 0h1m5 0h2m3 0h1m2 0h1m1 0h1m1 0h1m1 0h1m2 0h1m7 0h1m1 0h1m1 0h2m1 0h1m1 0h2m2 0h1m-52 1h2m1 0h1m3 0h3m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m2 0h1m3 0h1m1 0h1m2 0h2m1 0h1m3 0h1m1 0h1m1 0h1m3 0h1m-49 1h1m1 0h9m2 0h1m2 0h2m2 0h1m2 0h8m1 0h2m4 0h1m3 0h8m1 0h1m-45 1h2m2 0h1m1 0h4m4 0h1m1 0h2m1 0h1m1 0h1m2 0h4m8 0h1m2 0h1m2 0h3m-52 1h1m2 0h1m2 0h1m2 0h1m1 0h1m6 0h4m2 0h1m3 0h2m3 0h1m1 0h1m2 0h2m1 0h1m1 0h2m3 0h2m1 0h1m-45 1h2m1 0h2m2 0h1m1 0h2m1 0h1m4 0h4m1 0h1m1 0h1m3 0h1m2 0h4m1 0h2m5 0h3m-53 1h2m1 0h2m1 0h2m1 0h1m2 0h2m2 0h8m1 0h1m3 0h1m1 0h1m3 0h1m1 0h5m1 0h1m2 0h3m1 0h3m-50 1h2m2 0h2m1 0h1m1 0h1m1 0h2m2 0h3m4 0h1m2 0h1m1 0h2m1 0h1m2 0h1m2 0h1m2 0h1m5 0h1m2 0h1m-51 1h1m1 0h1m1 0h3m3 0h3m2 0h3m3 0h2m2 0h1m6 0h5m1 0h2m1 0h1m4 0h2m1 0h2m-52 1h1m4 0h1m7 0h1m2 0h2m1 0h2m1 0h1m4 0h2m2 0h1m1 0h2m1 0h2m1 0h1m5 0h1m3 0h1m-49 1h3m1 0h2m2 0h2m3 0h1m2 0h1m1 0h1m10 0h2m4 0h2m1 0h1m4 0h1m3 0h5m-53 1h1m1 0h1m4 0h4m3 0h1m1 0h1m3 0h1m4 0h1m1 0h1m5 0h1m3 0h2m6 0h1m3 0h2m-45 1h3m1 0h1m1 0h2m1 0h7m3 0h1m1 0h1m4 0h1m1 0h2m4 0h1m2 0h2m1 0h4m1 0h2m-52 1h4m2 0h3m1 0h5m3 0h4m4 0h1m1 0h2m1 0h1m1 0h1m1 0h2m1 0h1m2 0h2m2 0h4m2 0h1m-52 1h2m1 0h4m2 0h5m3 0h1m1 0h5m1 0h5m1 0h1m1 0h1m4 0h1m2 0h1m2 0h1m1 0h1m2 0h1m-49 1h2m3 0h4m1 0h1m2 0h1m1 0h1m1 0h1m2 0h2m2 0h1m1 0h2m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m5 0h1m1 0h3m-52 1h2m1 0h7m2 0h1m2 0h1m6 0h1m7 0h1m2 0h1m1 0h1m1 0h2m3 0h1m1 0h2m1 0h2m1 0h2m-51 1h2m5 0h4m2 0h1m1 0h3m1 0h1m1 0h2m1 0h3m1 0h2m1 0h3m1 0h1m1 0h1m2 0h7m1 0h2m-48 1h1m2 0h2m2 0h1m1 0h3m1 0h1m1 0h2m1 0h2m1 0h6m4 0h1m2 0h4m1 0h7m3 0h1m-45 1h4m2 0h1m2 0h1m1 0h1m2 0h1m1 0h1m3 0h3m1 0h2m1 0h1m5 0h2m1 0h1m3 0h1m3 0h1m-53 1h7m1 0h1m1 0h1m6 0h1m1 0h2m2 0h2m1 0h1m1 0h2m2 0h1m1 0h2m5 0h1m1 0h2m1 0h1m1 0h1m1 0h1m-51 1h1m5 0h1m1 0h1m1 0h4m1 0h5m1 0h4m3 0h2m2 0h1m1 0h1m4 0h2m2 0h2m3 0h2m1 0h2m-53 1h1m1 0h3m1 0h1m4 0h1m2 0h2m5 0h1m1 0h8m4 0h2m5 0h1m1 0h9m-53 1h1m1 0h3m1 0h1m1 0h2m2 0h1m1 0h2m1 0h5m1 0h2m1 0h2m5 0h1m3 0h2m1 0h2m1 0h1m1 0h1m2 0h3m1 0h1m-53 1h1m1 0h3m1 0h1m1 0h1m9 0h2m2 0h5m7 0h2m1 0h2m1 0h3m-43 1h1m5 0h1m2 0h3m2 0h2m2 0h2m1 0h1m2 0h1m1 0h2m1 0h1m1 0h3m2 0h2m1 0h1m1 0h3m1 0h1m1 0h1m3 0h1m-52 1h7m1 0h1m1 0h2m2 0h3m4 0h1m4 0h5m1 0h1m1 0h1m2 0h3m1 0h3m1 0h3m1 0h1m1 0h1"/></svg></span>
         <button class="btn btn-line" id="btnPix" type="button">Copiar código Pix</button>
-        <small>Depois, abra o app do seu banco e escolha Pix Copia e Cola.</small>
+        <small>No app do banco, use Pix Copia e Cola ou leia o QR Code.</small>
         <code id="f-pix" hidden></code>
       </div>
       <div class="actions" id="f-lista-box" hidden>
@@ -413,6 +417,7 @@
           <span id="agendaTxt">Salvar na agenda</span>
         </a>
       </div>
+      <a class="agenda-alt" id="agendaAlt" target="_blank" rel="noopener" hidden>Não abriu? Salvar pelo Google Agenda</a>
       <span class="thanks sig grad">obrigado</span>
     </section>
   </main>
@@ -646,7 +651,8 @@
     $('btnRsvp').href = `https://api.whatsapp.com/send?phone=${zapFull}&text=${encodeURIComponent(CONFIG.mensagemRsvp.replace('{noiva}', CONFIG.noiva).replace('{noivo}', CONFIG.noivo))}`;
     if (CONFIG.confirmarAte) { const [, pm, pd] = CONFIG.confirmarAte.split('-'); $('f-prazo').textContent = `Confirme até ${Number(pd)} de ${meses[Number(pm) - 1]}`; }
 
-    // Salvar na agenda: iPhone → Calendário da Apple (.ics) | Android/computador → Google Agenda
+    // Salvar na agenda: iPhone → arquivo casamento.ics (abre o Calendário) | Android/computador → Google Agenda
+    // Atenção: casamento.ics é um arquivo separado. Se mudar data, horário ou local, ele precisa ser refeito.
     (function(){
       const btn = $('btnAgenda');
       if (!inicio) { btn.remove(); return; }
@@ -655,29 +661,23 @@
       const l = (CONFIG.cerimonia.nome || CONFIG.cerimonia.endereco) ? CONFIG.cerimonia : CONFIG.recepcao;
       const local = [l.nome, l.endereco, l.cidade].filter(Boolean).join(', ');
       const titulo = `Casamento de ${casal}`, detalhes = 'Contamos com a sua presença!';
-      let datas, icsIni, icsFim, alarme;
+      let datas;
       if (horaPrincipal) {
         const fim = new Date(inicio.getTime() + CONFIG.duracaoHoras * 36e5);
-        datas = `${fmt(inicio)}/${fmt(fim)}`; icsIni = `DTSTART:${fmt(inicio)}`; icsFim = `DTEND:${fmt(fim)}`; alarme = '-P1D';
+        datas = `${fmt(inicio)}/${fmt(fim)}`;
       } else {
         const prox = new Date(`${CONFIG.data}T12:00:00Z`); prox.setUTCDate(prox.getUTCDate() + 1);
-        const d2 = prox.toISOString().slice(0,10).replace(/-/g,'');
-        datas = `${ano}${mes}${dia}/${d2}`; icsIni = `DTSTART;VALUE=DATE:${ano}${mes}${dia}`; icsFim = `DTEND;VALUE=DATE:${d2}`; alarme = '-PT15H';
+        datas = `${ano}${mes}${dia}/${prox.toISOString().slice(0,10).replace(/-/g,'')}`;
       }
-      const e = (t) => t.replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n');
-      const ics = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Convida&u//Convite//PT','CALSCALE:GREGORIAN','METHOD:PUBLISH','BEGIN:VEVENT',
-        `UID:${CONFIG.data}-casamento@convidaeu.com.br`, `DTSTAMP:${fmt(new Date())}`, icsIni, icsFim,
-        `SUMMARY:${e(titulo)}`, `LOCATION:${e(local)}`, `DESCRIPTION:${e(detalhes)}`,
-        'BEGIN:VALARM','ACTION:DISPLAY',`DESCRIPTION:${e('Amanhã é o casamento de ' + casal + '!')}`,`TRIGGER:${alarme}`,'END:VALARM',
-        'END:VEVENT','END:VCALENDAR'].join('\r\n');
+      const google = 'https://calendar.google.com/calendar/render?' + new URLSearchParams({ action:'TEMPLATE', text:titulo, dates:datas, location:local, details:detalhes });
       const ehIPhone = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
       if (ehIPhone) {
         $('agendaTxt').textContent = 'Salvar no calendário';
-        btn.removeAttribute('target');
-        btn.href = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics);
-        btn.addEventListener('click', ev => { ev.preventDefault(); window.location.href = btn.href; });
+        btn.removeAttribute('target'); btn.removeAttribute('rel');
+        btn.href = 'casamento.ics';
+        $('agendaAlt').href = google; $('agendaAlt').hidden = false;   // navegador interno de apps pode não abrir o .ics
       } else {
-        btn.href = 'https://calendar.google.com/calendar/render?' + new URLSearchParams({ action:'TEMPLATE', text:titulo, dates:datas, location:local, details:detalhes });
+        btn.href = google;
       }
     })();
 

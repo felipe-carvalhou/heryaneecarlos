@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Convida&u//Convite//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2026-12-12-heryane-carlos@convidaeu.com.br
+DTSTAMP:20261106T160026Z
+DTSTART:20261212T183000Z
+DTEND:20261212T223000Z
+SUMMARY:Casamento de Heryane & Carlos André
+LOCATION:Santuário de Nossa Senhora Aparecida\, Rua Alexandre Amorim\, 341
+ \, Aparecida\, Manaus - AM
+DESCRIPTION:Contamos com a sua presença!
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amanhã é o casamento de Heryane & Carlos André!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
